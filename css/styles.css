@@ -485,7 +485,6 @@ a {
   flex-basis: calc(100% / 3 - var(--margin-card));
   margin-right: var(--margin-card);
   margin-bottom: var(--margin-card);
-  border: 1px solid #eee;
 }
 
 .gallery-item:hover,
@@ -501,6 +500,9 @@ a {
 .gallery-description {
   padding: 20px 24px;
   background-color: var(--third-text-color);
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .gallery-title {
