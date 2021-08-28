@@ -3,6 +3,7 @@
   --secondary-text-color: #757575;
   --third-text-color: #fff;
   --accent-color: #2196f3;
+
   --margin-card: 30px;
 }
 
@@ -219,7 +220,7 @@ a {
   color: var(--secondary-text-color);
 }
 
-.advantages-item-icon {
+.advantages-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +254,7 @@ a {
 }
 
 .section-background {
-  background-color: #f5f4f4;
+  background-color: #f5f4fa;
 }
 
 .team {
@@ -385,7 +386,6 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
   margin-bottom: 20px;
